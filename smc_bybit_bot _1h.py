@@ -29,7 +29,7 @@ from dataclasses import dataclass
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID", "")
 # Topic de Telegram — None = chat directo, número = topic específico
-TELEGRAM_TOPIC_ID  = 268   # ej: TELEGRAM_TOPIC_ID = 123
+TELEGRAM_TOPIC_ID  = 395   # ej: TELEGRAM_TOPIC_ID = 123
 
 # Zona horaria
 TZ_OFFSET = -6              # UTC-6 = CST México
